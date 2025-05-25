@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        playfair: ["Playfair Display", "Serif"],
+      },
       colors: {
         primary: "#ff8901",
         secondary: "#fb923c",
