@@ -1,12 +1,25 @@
-# React + Vite
+# 🏋️‍♂️ GymZone – A Modern & Responsive Gym Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**GymZone** is a modern, React-based website designed specifically to showcase gym services, workout categories such as Yoga, Fitness, and Muscle Building, as well as customer testimonials. This website features an interactive and responsive user interface, utilizing animations and sliders for an engaging user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Key Features
 
-## Expanding the ESLint configuration
+- 🎯 **Product Tabs**: Displays a list of products or services by category (`All`, `Yoga`, `Fitness`, `Muscles`) using dynamic filtering.
+- 💬 **Customer Testimonials**: Interactive slider showcasing customer reviews using `react-slick`.
+- 🎨 **Responsive Design**: Built with Tailwind CSS for layouts that adapt beautifully across all devices.
+- ✨ **Smooth Animations**: Utilizes `framer-motion` to deliver seamless transitions and animations.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+- **React.js** – A JavaScript library for building user interfaces
+- **Vite** – A modern, lightning-fast build tool that enables minimal configuration for React with HMR and ESLint rules
+- **Tailwind CSS** – A utility-first CSS framework for rapid UI development
+- **Framer Motion** – Powerful animations for React components
+- **React Icons** – Ready-to-use SVG icon library
+- **React Slick** – A slick carousel/slider component for testimonials
+
+---
