@@ -9,25 +9,26 @@ const EquipmentData = [
   {
     id: 1,
     title: "Yoga Equipments",
-    desc: "It is a long established fact that a reader readable.",
+    desc: "Enhance your flexibility, balance, and inner peace with our high-quality yoga mats, straps, blocks, and bolsters – ideal for all levels.",
     icon: <GrYoga />,
     delay: 0.3,
   },
   {
     id: 2,
-    title: "Muscles Equipments",
-    desc: "It is a long established fact that a reader readable.",
+    title: "Muscle Equipments",
+    desc: "Target and develop every major muscle group with our full range of strength-training equipment including barbells, dumbbells, power racks, and cable machines.",
     icon: <FaDumbbell />,
-    delay: 0.3,
+    delay: 0.4,
   },
   {
     id: 3,
     title: "Fitness Equipments",
-    desc: "It is a long established fact that a reader readable.",
+    desc: "Achieve your fitness goals with state-of-the-art treadmills, elliptical trainers, spin bikes, and other essential cardio machines.",
     icon: <GiGymBag />,
-    delay: 0.3,
+    delay: 0.5,
   },
 ];
+
 const Equipments = () => {
   return (
     <div>

@@ -12,13 +12,12 @@ const Footer = () => {
           <div className="py-8 px-4 space-y-4">
             <div className="text-2xl flex items-center gap-2 font-bold uppercase">
               <FaDumbbell></FaDumbbell>
-              <p>Coders</p>
-              <p className="text-secondary">Gym</p>
+              <p>Gym</p>
+              <p className="text-secondary">Zone</p>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-              atque maiores pariatur perferendis illo quae iste doloribus ad
-              praesentium nemo!
+              Coders Gym hadir memberikan pengalaman kebugaran terbaik dengan
+              fasilitas modern dan atmosfer yang inspiratif.
             </p>
             <div className="flex items-center justify-start gap-5 !mt-6">
               <a href="#" className="hover:text-secondary">
@@ -44,25 +43,25 @@ const Footer = () => {
               </h1>
               <ul className="flex flex-col gap-3">
                 <li>
-                  <a href="" className="hover:text-secondary">
+                  <a href="#" className="hover:text-secondary">
                     {" "}
                     Home
                   </a>
                 </li>
                 <li>
-                  <a href="" className="hover:text-secondary">
+                  <a href="#" className="hover:text-secondary">
                     {" "}
                     About
                   </a>
                 </li>
                 <li>
-                  <a href="" className="hover:text-secondary">
+                  <a href="#" className="hover:text-secondary">
                     {" "}
                     Services
                   </a>
                 </li>
                 <li>
-                  <a href="" className="hover:text-secondary">
+                  <a href="#" className="hover:text-secondary">
                     {" "}
                     Login
                   </a>
@@ -75,19 +74,19 @@ const Footer = () => {
               </h1>
               <ul className="flex flex-col gap-3">
                 <li>
-                  <a href="" className="hover:text-secondary">
+                  <a href="#" className="hover:text-secondary">
                     {" "}
                     Our Services
                   </a>
                 </li>
                 <li>
-                  <a href="" className="hover:text-secondary">
+                  <a href="#" className="hover:text-secondary">
                     {" "}
                     Contact
                   </a>
                 </li>
                 <li>
-                  <a href="" className="hover:text-secondary">
+                  <a href="#" className="hover:text-secondary">
                     {" "}
                     Privacy Policy
                   </a>
@@ -100,25 +99,25 @@ const Footer = () => {
               </h1>
               <ul className="flex flex-col gap-3">
                 <li>
-                  <a href="" className="hover:text-secondary">
+                  <a href="#" className="hover:text-secondary">
                     {" "}
                     Products
                   </a>
                 </li>
                 <li>
-                  <a href="" className="hover:text-secondary">
+                  <a href="#" className="hover:text-secondary">
                     {" "}
                     Yoga
                   </a>
                 </li>
                 <li>
-                  <a href="" className="hover:text-secondary">
+                  <a href="#" className="hover:text-secondary">
                     {" "}
-                    Muscless
+                    Muscles
                   </a>
                 </li>
                 <li>
-                  <a href="" className="hover:text-secondary">
+                  <a href="#" className="hover:text-secondary">
                     {" "}
                     Fitness
                   </a>
@@ -130,9 +129,9 @@ const Footer = () => {
 
         {/* Copyright Section */}
         <div className="mt-8">
-          <div className="text-center py-6 border-t-2 boorder-grey-300/10">
+          <div className="text-center py-6 border-t-2 border-grey-300/10">
             <span className="text-sm text-gray-300 opacity-50">
-              @Copyright 2024 The Coding Journey
+              @Copyright 2024 The Gym Zone
             </span>
           </div>
         </div>

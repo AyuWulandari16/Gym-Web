@@ -15,8 +15,8 @@ const Navbar = () => {
           {/* Logo Section */}
           <div className="text-2xl flex items-center gap-2 font-bold py-8 uppercase">
             <FaDumbbell />
-            <p>Coders</p>
-            <p className="text-secondary">Gym</p>
+            <p>Gym</p>
+            <p className="text-secondary">Zone</p>
           </div>
           {/* Menu Section */}
           <div className="hidden md:block">

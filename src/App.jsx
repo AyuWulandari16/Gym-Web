@@ -8,33 +8,7 @@ import TabComp from "./components/Tab/TabComp";
 import Testimonials from "./components/Testimonials/Testimonials";
 import BannerBottom from "./components/Banner/BannerBottom";
 import Footer from "./components/Footer/Footer";
-
-import Img1 from "./assets/2.png";
-import Img2 from "./assets/3.png";
-
-const BannerData = {
-  image: Img1,
-  title: "Lorem ipsum dolor sit",
-  subtitle:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, necessitatibus commodi placeat consequuntur optio quaerat. At facere maxime architecto labore et? Veritatis aspernatur et, explicabo aliquid nulla quos amet voluptatem.",
-  link: "#",
-};
-
-const Banner2Data = {
-  image: Img2,
-  title: "Lorem ipsum dolor sit",
-  subtitle:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, necessitatibus commodi placeat consequuntur optio quaerat. At facere maxime architecto labore et? Veritatis aspernatur et, explicabo aliquid nulla quos amet voluptatem.",
-  link: "#",
-};
-
-const bgStyle = {
-  backgroundImage: `url(${BgImage})`,
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-  backgroundPosition: "center",
-  backgroundAttachment: "fixed",
-};
+import { BannerData, Banner2Data, bgStyle } from "./mockData/data.js";
 
 const App = () => {
   return (
